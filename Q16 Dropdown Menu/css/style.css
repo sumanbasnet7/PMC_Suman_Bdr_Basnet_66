@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, purple, pink);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: grey;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: block;
+}
+
+a:hover {
+    background-color: black;
+}
+
+
+.dropdown:hover > .submenu {
+    display: block;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: grey;
+    width: 200px;
+}
+
+.submenu li a {
+    color: white;
+    padding: 10px;
+}
+
+.submenu li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*U+25BC*/
+.dropdown > a:after {
+    content: ' ▼'; 
+    font-size: 12px;
+}
+
+
+.submenu li a:hover {
+    background-color: white;
+    color: black;
+}
