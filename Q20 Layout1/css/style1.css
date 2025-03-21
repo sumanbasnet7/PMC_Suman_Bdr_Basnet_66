@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    color: white;
+}
+.form-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+.register, .login {
+    width: 50%;
+    padding: 20px;
+}
+input, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+button {
+    background: goldenrod;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: darkgoldenrod;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.header, .footer, .content1, .content2, .content3, .sidebar {
+    background: green;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+.main {
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+}
+.content {
+    width: 80%;
+}
+.content1 {
+    width: 100%;
+}
+.content2-3 {
+    display: flex;
+}
+.content2, .content3 {
+    width: 50%;
+}
+
